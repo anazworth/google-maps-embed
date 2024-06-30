@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/google_maps_embed.svg)](https://badge.fury.io/rb/google_maps_embed)
+
 # Google_Maps_Embed
 
 ## Currently a Work in Progress
