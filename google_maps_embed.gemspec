@@ -3,14 +3,14 @@
 require_relative "lib/google_maps_embed/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "google-maps-embed"
+  spec.name = "google_maps_embed"
   spec.version = GoogleMapsEmbed::VERSION
   spec.authors = ["Austin Nazworth"]
   spec.email = ["austin.nazworth@gmail.com"]
 
   spec.summary = "A Ruby gem that simplifies generating URLs for embedding static or dynamic Google Maps."
   spec.description = <<-DESC
-    Google-Maps-Embed is a versatile Ruby gem designed to simplify the generation of Google Maps URLs
+    Google_Maps_Embed is a versatile Ruby gem designed to simplify the generation of Google Maps URLs
     for embedding static and dynamic maps in web applications. Designed with Rails in mind.
 
     Key features include:
@@ -22,13 +22,13 @@ Gem::Specification.new do |spec|
 
     Ideal for web developers seeking efficient map integration solutions.
   DESC
-  spec.homepage = "https://github.com/anazworth/google-maps-embed"
+  spec.homepage = "https://github.com/anazworth/google_maps_embed"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
-  spec.metadata["changelog_uri"] = "https://github.com/anazworth/google-maps-embed/blob/main/CHANGELOG.md"
+  spec.metadata["changelog_uri"] = "https://github.com/anazworth/google_maps_embed/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

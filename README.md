@@ -1,4 +1,4 @@
-# GoogleMapsEmbed
+# Google_Maps_Embed
 
 ## Currently a Work in Progress
 
@@ -6,11 +6,11 @@
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add google-maps-embed
+    $ bundle add google_maps_embed
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install google-maps-embed
+    $ gem install google_maps_embed
 
 ## Usage
 
@@ -24,7 +24,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/anazworth/google-maps-embed. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/anazworth/google-maps-embed/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/anazworth/google_maps_embed. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/anazworth/google_maps_embed/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -32,4 +32,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the GoogleMapsEmbed project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/anazworth/google-maps-embed/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Google_Maps_Embed project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/anazworth/google_maps_embed/blob/master/CODE_OF_CONDUCT.md).
