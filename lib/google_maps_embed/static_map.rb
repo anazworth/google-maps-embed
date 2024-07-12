@@ -22,9 +22,9 @@ class StaticMap
 
     coords = options.key?(:latitude) && options.key?(:longitude) ? "#{options[:latitude]},#{options[:longitude]}" : ""
     center = if coords.empty? && options.key?(:address)
-               coords
+               "center=#{URI.encode_www_form_component(options[:address])}"
              else
-               "center=" << URI.encode_www_form_component(options[:address])
+               "center=#{coords}"
              end
 
     api_key = [options[:api_key], GoogleMapsEmbed.configuration.static_key,
@@ -76,7 +76,7 @@ class StaticMap
         current << "#{k}:#{URI.encode_www_form_component(v)}" if v.is_a? String
         current << URI.encode_www_form_component(v.join("|")) if v.is_a? Array
       end
-      options_url << "#{option_type}=" + current.join("%7C")
+      options_url << ("#{option_type}=" + current.join("%7C"))
     end
 
     options_url.join("&").gsub("%2C", ",")
