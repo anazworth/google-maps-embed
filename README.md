@@ -16,7 +16,33 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+### Rails
+
+#### Setup
+
+1. Initialize the Rails configuration by running the command `rails g google_maps_embed:install` in the directory of your rails application.
+
+2. Add your Google Maps API keys to the configuration file `config/initializers/google_maps_embed.rb`
+
+#### Static Map
+
+Creating a Static Map will generate a URL. This can be used in the `src=...` for an image tag or as a link to download.
+
+```
+google_maps_embed(type: :static, address: "orlando, florida", zoom: 1)
+```
+
+#### Dynamic Embedded Maps
+
+Creating a Dynamic Map will generate an iframe. These can be used in .erb files.
+
+```
+<%= google_maps_embed(type: :place,
+  q: "Orlando, FL",
+  width: "fit",
+  height: "450",
+  zoom: 17) %>
+```
 
 ## Development
 

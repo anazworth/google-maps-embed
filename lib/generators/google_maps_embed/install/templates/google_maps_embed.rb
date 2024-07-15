@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-GoogleMapsEmbedUrl.configure do |config|
+GoogleMapsEmbed.configure do |config|
   config.api_key = "YOUR_GOOGLE_MAPS_API_KEY"
 
   # Optional, but recommended for generating static maps.

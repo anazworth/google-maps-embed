@@ -5,6 +5,7 @@ require_relative "google_maps_embed/configuration"
 require_relative "google_maps_embed/static_map"
 require_relative "google_maps_embed/place_map"
 require_relative "google_maps_embed/iframe_generator"
+require_relative "google_maps_embed/view_helpers"
 require "google_maps_embed/railtie" if defined?(Rails)
 
 module GoogleMapsEmbed
